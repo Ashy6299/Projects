@@ -1,0 +1,8 @@
+.col-4{
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: rgb(186, 186, 237);
+    background-color: rgb(143, 218, 193);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100px;
+}

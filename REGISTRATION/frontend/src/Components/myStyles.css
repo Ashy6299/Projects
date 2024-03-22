@@ -1,0 +1,39 @@
+.nav-menu{
+    display: flex;
+    padding: 1rem;
+    background-color: rgb(92, 148, 133);
+    border-style: solid;
+    border-top: none;
+    border-radius: 1rem;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    
+    
+a{
+    text-decoration: none;
+    &:focus, &:hover, &:visited {
+        color: black;
+    }
+}
+.logo{
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0;
+    font-weight: bold;
+}
+ul{
+   list-style-type: none;
+   margin: 0;
+   margin-left: auto; 
+
+   li{
+    display: inline-block;
+    margin: 0 1rem;
+    font-weight: bold;
+   }
+}
+}
+.icon{
+    margin-bottom: 0.3rem;
+
+}
